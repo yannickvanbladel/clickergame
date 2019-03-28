@@ -1,0 +1,51 @@
+/*----------------------------------------------------------------------------*\
+    vars
+\*----------------------------------------------------------------------------*/
+
+$color-primary: #3083C8;
+$color-primary-tint: #A8DADC;
+$color-secondary: #FFE66D;
+$color-greys-40: hsl(212,56%,16%);
+$color-greys-30: hsl(212,18%,35%);
+$color-greys-20: hsl(210,32%,93%);
+$color-greys-10: hsl(210,38%,97%);
+
+/*----------------------------------------------------------------------------*\
+    
+\*----------------------------------------------------------------------------*/
+
+/* Media Queries
+   The default media queries shipped with Blocss:
+   Uncomment the ones you need
+\*------------------------------------------------------------------------*/
+
+/**
+ * Desk-wide state
+ */
+//@include media-query(gt-desk){}
+
+/**
+ * Desk state
+ */
+//@include media-query(desk){}
+
+/**
+ * Portable state
+ */
+//@include media-query(lt-desk){}
+
+/**
+ * Lap state
+ */
+//@include media-query(lap){}
+
+/**
+ * Lapup state
+ */
+//@include media-query(gt-palm){}
+
+/**
+ * Palm state
+ */
+//@include media-query(palm){}
+
